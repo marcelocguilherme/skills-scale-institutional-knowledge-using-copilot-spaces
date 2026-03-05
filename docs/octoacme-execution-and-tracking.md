@@ -22,6 +22,13 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- All items must meet the [Definition of Done](octoacme-definition-of-ready-and-done.md) before being marked complete
+
+## Handoff to QA / Release Gate
+Before moving a work item to the **QA** or **Done** column:
+1. Confirm all [Definition of Done](octoacme-definition-of-ready-and-done.md) criteria are met.
+2. Assign a QA reviewer and link the relevant PR or build.
+3. For release-bound items, confirm a [Release Readiness Checklist](octoacme-release-readiness-checklist.md) has been started.
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -32,6 +39,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Level 1: Team-level triage in daily standup
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+
+### Escalation Triggers & Response Times
+| Trigger | Expected Response Time |
+|---------|----------------------|
+| Item blocked > 2 business days | Escalate to Level 2 within 24 hours |
+| Milestone slip risk identified | PM to assess and notify stakeholders same day |
+| Production incident affecting customers | Immediately trigger incident comms — see [Risk Management & Communication](octoacme-risks-and-communication.md) |
+
+> For the full escalation trigger list including security, privacy, and third-party dependency scenarios, see [Risk Management & Communication](octoacme-risks-and-communication.md).
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo

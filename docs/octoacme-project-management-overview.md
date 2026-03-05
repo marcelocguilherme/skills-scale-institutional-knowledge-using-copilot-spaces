@@ -24,8 +24,11 @@ Applies to all cross-functional projects that deliver product features, services
 - Project Charter / One-pager
 - Roadmap and Release Plan
 - Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
+- Acceptance Criteria, [Definition of Ready & Done](octoacme-definition-of-ready-and-done.md)
 - Risk Register
+- [Decision Log](octoacme-decision-log.md)
+- [RACI & Ownership matrix](octoacme-raci-and-ownership.md)
+- [Project Status Page](octoacme-project-status-template.md)
 - Retrospective notes and action items
 
 ## Lifecycle (high-level)
