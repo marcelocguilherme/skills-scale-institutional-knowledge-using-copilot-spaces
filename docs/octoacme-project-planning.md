@@ -10,9 +10,9 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 
 ## Activities
 1. Kickoff meeting with stakeholders and delivery team
-2. Create prioritized backlog with acceptance criteria
+2. Create prioritized backlog with acceptance criteria; verify items meet the [Definition of Ready](octoacme-definition-of-ready-and-done.md) before bringing them into a sprint
 3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
+4. Define Definition of Done (DoD) — see [Definition of Ready & Done](octoacme-definition-of-ready-and-done.md)
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
 
@@ -27,7 +27,7 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 
 ## Sprint / Iteration Planning
 - Timebox planning to agreed sprint length
-- Pull items that meet DoD and have clear acceptance criteria
+- Pull only items that meet the [Definition of Ready](octoacme-definition-of-ready-and-done.md) — problem statement, AC, estimates, and dependencies must be complete
 - Ensure team capacity is respected
 
 ## Risk & Dependency Management
@@ -39,5 +39,5 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Project kickoff held
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
+- [ ] [Definition of Ready & Done](octoacme-definition-of-ready-and-done.md) reviewed and agreed with team
 - [ ] Initial test plan / QA approach drafted
